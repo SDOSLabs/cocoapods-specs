@@ -90,19 +90,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'SFHFKeychainUtils', '~> 1.0'
   spec.dependency 'Titanium', '~> 1.1'
 
-  spec.dependency 'CocoaLumberjack', '~> 2.2.0'
-  spec.dependency 'MaterialControlsCustom', '~> 1.0.0'
-  spec.dependency 'libextobjc', '~> 0.4.1'
-  spec.dependency 'IQKeyboardManager', '~> 3.3.4'
-  spec.dependency 'Google/Analytics', '~> 1.0.0'
-  spec.dependency 'JSONModel', '~> 1.1.2'
-  spec.dependency 'Extensions', '~> 1.0.0'
-  spec.dependency 'FLEX', '~> 2.0'
-  spec.dependency 'KZBootstrap', '~> 0.5.5'
-  spec.dependency 'GBVersionTracking', '~> 1.3.1'
-  spec.dependency 'Fabric', '~> 1.6.0'
-  spec.dependency 'Crashlytics', '~> 3.4.1'
-  spec.dependency 'MBProgressHUD', '~> 0.9.1'
-  spec.dependency 'M13ProgressSuite', '~> 1.2.7'
-  spec.dependency 'JSONModel', '~> 1.1.2'
+
 end
