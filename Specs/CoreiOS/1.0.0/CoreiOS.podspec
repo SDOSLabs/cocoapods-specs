@@ -86,8 +86,6 @@ Pod::Spec.new do |spec|
   end
   spec.framework    = ['Foundation', 'UIKit', 'Crashlytics', 'Fabric']
   spec.requires_arc = true
-  spec.dependency 'SFHFKeychainUtils', '~> 1.0'
-  spec.dependency 'Titanium', '~> 1.1'
 
   spec.dependency 'CocoaLumberjack', '~> 2.2.0'
   spec.dependency 'libextobjc', '~> 0.4.1'
