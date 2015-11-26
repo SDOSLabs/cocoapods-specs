@@ -1,19 +1,13 @@
 @version = "1.0.0"
-Pod::Spec.new do |s|
-  s.name             = "iCarouselCustom"
-  s.version          = @version
-  s.summary          = "A class designed to simplify the implementation of various types of carousel."
-
-  s.homepage         = "https://github.com/nicklockwood/iCarousel"
-  s.license          = 'MIT'
-  s.author           = { "Nick Lockwood" => "support@charcoaldesign.co.uk" }
-  s.source           = { :svn => "http://svn.sdos.es/Sdos/ComponentesIOS/Librerias/iCarousel", :tag => @version }
-
-  s.platform     = :ios, '4.3'
-  s.requires_arc = true
-  s.framework    = ['QuartzCore']
-  s.source_files = '**/*.{h,m}'
-  s.resource_bundles = {
-    'MaterialControls' => ['*.png']
-  }
+Pod::Spec.new do |spec|
+  spec.platform     = :ios, '4.3'
+  spec.name         = 'iCarouselCustom'
+  spec.author       = { "Nick Lockwood" => "support@charcoaldesign.co.uk" }
+  spec.version      = @version
+  spec.license      = { :type => 'MIT' }
+  spec.homepage     = 'http://git.sdos.es/ios/iCarouselCustom'
+  spec.summary      = 'A class designed to simplify the implementation of various types of carousel.'
+  spec.source       = { :git => "http://git.sdos.es/ios/iCarouselCustom.git", :tag => "v#{spec.version}" }
+  spec.framework    = ['QuartzCore']
+  spec.source_files = '**/*.{h,m}'
 end

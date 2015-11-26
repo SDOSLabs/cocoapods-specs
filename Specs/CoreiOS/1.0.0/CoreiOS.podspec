@@ -8,7 +8,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://git.sdos.es/ios/CoreiOS'
   spec.summary      = 'Librería de conexión de los frameworks de terceros. En está librería se añaden funcionalidades para facilitar el flujo de trabajo'
   spec.source       = { :git => "http://git.sdos.es/ios/CoreiOS.git", :tag => "v#{spec.version}" }
-
+  spec.framework    = ['Foundation', 'UIKit', 'Crashlytics', 'Fabric']
+  spec.requires_arc = true
   spec.preserve_paths = "Scripts/*"
 
   spec.subspec 'Classes' do |s1|
@@ -84,8 +85,6 @@ Pod::Spec.new do |spec|
       end
     end
   end
-  spec.framework    = ['Foundation', 'UIKit', 'Crashlytics', 'Fabric']
-  spec.requires_arc = true
 
   spec.dependency 'CocoaLumberjack', '~> 2.2.0'
   spec.dependency 'libextobjc', '~> 0.4.1'
