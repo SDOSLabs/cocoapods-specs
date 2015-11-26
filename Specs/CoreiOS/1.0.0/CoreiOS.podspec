@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'SDOS License' }
   spec.homepage     = 'http://git.sdos.es/ios/CoreiOS'
   spec.summary      = 'Librería de conexión de los frameworks de terceros. En está librería se añaden funcionalidades para facilitar el flujo de trabajo'
-  spec.source       = { :svn => "http://git.sdos.es/ios/CoreiOS", :tag => @version }
+  spec.source       = { :svn => "http://git.sdos.es/ios/CoreiOS", :tag => "v#{spec.version}" }
 
   spec.subspec 'Classes' do |s1|
     s1.source_files = 'Classes/CoreiOS.h'
