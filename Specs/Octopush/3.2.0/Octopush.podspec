@@ -15,6 +15,5 @@ Pod::Spec.new do |spec|
       ss.source_files = 'Octopush/include/*.h'
   end
   spec.preserve_paths = 'Octopush/lib/*.a'
-  spec.library = 'Octopush'
-  spec.xcconfig = [ "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/Octopush/lib\"" ]
+  spec.library = 'Octopush/Prueba'
 end
