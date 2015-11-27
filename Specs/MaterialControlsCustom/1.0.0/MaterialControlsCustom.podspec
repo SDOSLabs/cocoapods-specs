@@ -1,4 +1,3 @@
-
 @version = "1.0.0"
 Pod::Spec.new do |spec|
   spec.platform     = :ios, '8.0'
@@ -11,8 +10,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "http://git.sdos.es/ios/MaterialControlsCustom.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
-  spec.source_files = '**/*.{h,m}'
-  spec.resource_bundles = {
-    'MaterialControls' => ['*.png']
-  }
+  spec.source_files = 'MaterialControlsCustom/**/*.{h,m}'
 end
