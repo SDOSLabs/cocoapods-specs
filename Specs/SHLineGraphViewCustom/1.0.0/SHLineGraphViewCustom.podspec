@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'SHLineGraphView` is a simple and efficient reusable UIView subview which you can use to create line graphs.'
   spec.source       = { :git => "http://git.sdos.es/ios/SHLineGraphViewCustom.git", :tag => "v#{spec.version}" }
   spec.requires_arc = true
-  spec.source_files = '*.{h,m}'
+  spec.source_files = 'SHLineGraphViewCustom/*.{h,m}'
 end
