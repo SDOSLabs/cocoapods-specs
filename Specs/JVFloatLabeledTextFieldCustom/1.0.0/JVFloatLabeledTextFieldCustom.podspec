@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "http://git.sdos.es/ios/JVFloatLabeledTextFieldCustom.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
-  spec.source_files = '*.{h,m}'
+  spec.source_files = 'JVFloatLabeledTextFieldCustom/*.{h,m}'
 end
