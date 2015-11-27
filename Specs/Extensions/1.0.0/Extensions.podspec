@@ -106,6 +106,9 @@ Pod::Spec.new do |spec|
   spec.subspec 'UITabBarController' do |s1|
     s1.source_files = 'Extensions/UITabBarController/{*.m,*.h}'
   end
+  spec.subspec 'UITableViewHeaderFooterView' do |s1|
+    s1.source_files = 'Extensions/UITableViewHeaderFooterView/{*.m,*.h}'
+  end
   spec.subspec 'UITableViewCell' do |s1|
     s1.source_files = 'Extensions/UITableViewCell/{*.m,*.h}'
   end
