@@ -10,78 +10,78 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "http://git.sdos.es/ios/CoreiOS.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit', 'Crashlytics', 'Fabric']
   spec.requires_arc = true
-  spec.preserve_paths = "Scripts/*"
+  spec.preserve_paths = "CoreiOS/Scripts/*"
 
   spec.subspec 'Classes' do |s1|
-    s1.source_files = 'CoreiOS/CoreiOS.h'
+    s1.source_files = 'CoreiOS/Classes/CoreiOS.h'
     s1.subspec 'Categories' do |s2|
       s2.subspec 'Controller' do |s3|
-        s3.source_files = 'CoreiOS/Categories/Controller/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Categories/Controller/{*.m,*.h}'
       end
       s2.subspec 'JSON' do |s3|
-        s3.source_files = 'CoreiOS/Categories/JSON/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Categories/JSON/{*.m,*.h}'
       end
       s2.subspec 'UIApplication' do |s3|
-        s3.source_files = 'CoreiOS/Categories/UIApplication/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Categories/UIApplication/{*.m,*.h}'
       end
       s2.subspec 'Utilidades' do |s3|
-        s3.source_files = 'CoreiOS/Categories/Utilidades/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Categories/Utilidades/{*.m,*.h}'
       end
     end
     s1.subspec 'Constants' do |s2|
-      s2.source_files = 'CoreiOS/Constants/{*.m,*.h}'
+      s2.source_files = 'CoreiOS/Classes/Constants/{*.m,*.h}'
     end
     s1.subspec 'CustomTypes' do |s2|
       s2.subspec 'NSDateTime' do |s3|
-        s3.source_files = 'CoreiOS/CustomTypes/NSDateTime/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/CustomTypes/NSDateTime/{*.m,*.h}'
       end
       s2.subspec 'NSTime' do |s3|
-        s3.source_files = 'CoreiOS/CustomTypes/NSTime/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/CustomTypes/NSTime/{*.m,*.h}'
       end
     end
     s1.subspec 'Loader' do |s2|
       s2.subspec 'Manager' do |s3|
-        s3.source_files = 'CoreiOS/Loader/Manager/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Loader/Manager/{*.m,*.h}'
       end
       s2.subspec 'Object' do |s3|
-        s3.source_files = 'CoreiOS/Loader/Object/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Loader/Object/{*.m,*.h}'
       end
       s2.subspec 'Private' do |s3|
-        s3.source_files = 'CoreiOS/Loader/Private/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Loader/Private/{*.m,*.h}'
       end
     end
     s1.subspec 'Logging' do |s2|
-      s2.source_files = 'CoreiOS/Logging/{*.m,*.h}'
+      s2.source_files = 'CoreiOS/Classes/Logging/{*.m,*.h}'
     end
     s1.subspec 'Protocols' do |s2|
       s2.subspec 'Controller' do |s3|
-        s3.source_files = 'CoreiOS/Protocols/Controller/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Protocols/Controller/{*.m,*.h}'
       end
       s2.subspec 'DAO' do |s3|
-        s3.source_files = 'CoreiOS/Protocols/DAO/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Protocols/DAO/{*.m,*.h}'
       end
       s2.subspec 'Error' do |s3|
-        s3.source_files = 'CoreiOS/Protocols/Error/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Protocols/Error/{*.m,*.h}'
       end
       s2.subspec 'Loader' do |s3|
-        s3.source_files = 'CoreiOS/Protocols/Loader/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/Protocols/Loader/{*.m,*.h}'
       end
     end
     s1.subspec 'Util' do |s2|
-      s2.source_files = 'CoreiOS/Util/{*.m,*.h}'
+      s2.source_files = 'CoreiOS/Classes/Util/{*.m,*.h}'
     end
     s1.subspec 'WS' do |s2|
       s2.subspec 'DTO' do |s3|
-        s3.source_files = 'CoreiOS/WS/DTO/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/WS/DTO/{*.m,*.h}'
       end
       s2.subspec 'ErrorDTO' do |s3|
-        s3.source_files = 'CoreiOS/WS/ErrorDTO/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/WS/ErrorDTO/{*.m,*.h}'
       end
       s2.subspec 'RequestSerializer' do |s3|
-        s3.source_files = 'CoreiOS/WS/RequestSerializer/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/WS/RequestSerializer/{*.m,*.h}'
       end
       s2.subspec 'ResponseSerializer' do |s3|
-        s3.source_files = 'CoreiOS/WS/ResponseSerializer/{*.m,*.h}'
+        s3.source_files = 'CoreiOS/Classes/WS/ResponseSerializer/{*.m,*.h}'
       end
     end
   end
