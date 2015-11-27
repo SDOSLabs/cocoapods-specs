@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'A class designed to simplify the implementation of various types of carousel.'
   spec.source       = { :git => "http://git.sdos.es/ios/iCarouselCustom.git", :tag => "v#{spec.version}" }
   spec.framework    = ['QuartzCore']
-  spec.source_files = '**/*.{h,m}'
+  spec.source_files = 'iCarouselCustom/*.{h,m}'
 end
