@@ -27,6 +27,9 @@ Pod::Spec.new do |spec|
       s2.subspec 'Utilidades' do |s3|
         s3.source_files = 'CoreiOS/Classes/Categories/Utilidades/{*.m,*.h}'
       end
+      s2.subspec 'Octopush' do |s3|
+        s3.source_files = 'CoreiOS/Classes/Categories/Octopush/{*.m,*.h}'
+      end
     end
     s1.subspec 'Constants' do |s2|
       s2.source_files = 'CoreiOS/Classes/Constants/{*.m,*.h}'
