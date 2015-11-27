@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
       ss.source_files = 'Octopush/include/*.h'
   end
   spec.preserve_paths = 'Octopush/lib/*.a'
-  spec.library = 'Octopush'
+  spec.library = 'Octopush/Octopush'
 end
