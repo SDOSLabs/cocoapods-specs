@@ -9,12 +9,12 @@
 
 Pod::Spec.new do |s|
   s.name             = "KZBootstrap"
-  s.version          = "0.5.5-S2"
+  s.version          = "0.5.5-Sdos"
   s.summary          = "iOS project bootstrap aimed at high quality coding."
   s.description      = <<-DESC
                        Project bootstrap that provides automatic icon versioning, todo -> warning conversion, warnings while files become too long, build numbering, environment switching/validation and much more.
                        DESC
-  s.homepage         = "https://github.com/krzysztofzablocki/KZBootstrap"
+  s.homepage         = "http://git.sdos.es/ios/KZBootstrap"
   s.license          = 'MIT'
   s.author           = { "Krzysztof Zablocki" => "krzysztof.zablocki@me.com" }
   s.source           = { :git => "http://git.sdos.es/ios/KZBootstrap.git", :tag => s.version.to_s }
