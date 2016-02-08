@@ -30,6 +30,9 @@ Pod::Spec.new do |spec|
       s2.subspec 'Octopush' do |s3|
         s3.source_files = 'CoreiOS/Classes/Categories/Octopush/{*.m,*.h}'
       end
+      s2.subspec 'Domain' do |s3|
+        s3.source_files = 'CoreiOS/Classes/Categories/Domain/{*.m,*.h}'
+      end
     end
     s1.subspec 'Constants' do |s2|
       s2.source_files = 'CoreiOS/Classes/Constants/{*.m,*.h}'
@@ -69,6 +72,9 @@ Pod::Spec.new do |spec|
       s2.subspec 'Loader' do |s3|
         s3.source_files = 'CoreiOS/Classes/Protocols/Loader/{*.m,*.h}'
       end
+      s2.subspec 'Domain' do |s3|
+        s3.source_files = 'CoreiOS/Classes/Protocols/Domain/{*.m,*.h}'
+      end
     end
     s1.subspec 'Util' do |s2|
       s2.source_files = 'CoreiOS/Classes/Util/{*.m,*.h}'
@@ -87,6 +93,9 @@ Pod::Spec.new do |spec|
         s3.source_files = 'CoreiOS/Classes/WS/ResponseSerializer/{*.m,*.h}'
       end
     end
+    s1.subspec 'Domain' do |s2|
+    	s2.source_files = 'CoreiOS/Classes/Domain/{*.m,*.h}'
+    end
   end
 
   spec.dependency 'CocoaLumberjack', '~> 2.2.0'
@@ -98,7 +107,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'GBVersionTracking', '~> 1.3.1'
   spec.dependency 'MBProgressHUD', '~> 0.9.1'
   spec.dependency 'M13ProgressSuite', '~> 1.2.7'
-  spec.dependency 'JSONModel', '~> 1.1.2'
   spec.dependency 'Extensions', '~> 1.0'
   spec.dependency 'MaterialControlsCustom', '~> 1.0'
   spec.dependency 'Google/Analytics', '~> 1.0.0'
