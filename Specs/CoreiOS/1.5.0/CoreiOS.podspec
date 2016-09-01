@@ -1,4 +1,4 @@
-@version = "1.4.6"
+@version = "1.5.0"
 Pod::Spec.new do |spec|
   spec.platform     = :ios, '8.0'
   spec.name         = 'CoreiOS'
@@ -8,13 +8,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://git.sdos.es/ios/CoreiOS'
   spec.summary      = 'Librería de conexión de los frameworks de terceros. En está librería se añaden funcionalidades para facilitar el flujo de trabajo'
   spec.source       = { :git => "http://git.sdos.es/ios/CoreiOS.git", :tag => "v#{spec.version}" }
-  spec.framework    = ['Foundation', 'UIKit', 'Crashlytics', 'Fabric', 'GGLCore' , 'GoogleSymbolUtilities', 'GoogleInterchangeUtilities', 'GoogleUtilities']
+  spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
   spec.preserve_paths = "CoreiOS/Scripts/*"
-  spec.libraries =[ "z", "stdc++", "sqlite3", "GoogleAnalytics" ]
-  spec.pod_target_xcconfig = {
-  'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Google/Frameworks" "${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks" "${PODS_ROOT}/GoogleSymbolUtilities/Frameworks" "${PODS_ROOT}/GoogleUtilities/Frameworks" "${PODS_ROOT}/Fabric/iOS"',
-  'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/GoogleAnalytics/Libraries"'}
 
   spec.subspec 'Classes' do |s1|
     s1.source_files = 'CoreiOS/Classes/CoreiOS.h'
