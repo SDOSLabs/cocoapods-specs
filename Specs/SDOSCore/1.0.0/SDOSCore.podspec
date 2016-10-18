@@ -102,10 +102,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'FLEX'
   spec.dependency 'KZBootstrap'
   spec.dependency 'GBVersionTracking'
-  spec.dependency 'MBProgressHUD'
-  spec.dependency 'M13ProgressSuite'
   spec.dependency 'Extensions'
-  spec.dependency 'MaterialControlsCustom'
   spec.dependency 'MagicalRecord'
   spec.dependency 'AFNetworking'
 
