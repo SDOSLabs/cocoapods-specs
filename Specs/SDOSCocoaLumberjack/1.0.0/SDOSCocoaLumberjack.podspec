@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
     end
   end
 
-  spec.dependency 'CocoaLumberjack', '~> 2.4'
+  spec.dependency 'CocoaLumberjack', '~> 2.2.0'
 
 end
