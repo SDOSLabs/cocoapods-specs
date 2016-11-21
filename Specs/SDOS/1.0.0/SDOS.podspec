@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
   spec.homepage     = 'http://git.sdos.es/ios/SDOS'
-  spec.summary      = 'Librería de conexión de los frameworks de terceros. En está librería se añaden funcionalidades para facilitar el flujo de trabajo'
+  spec.summary      = 'Librería de conexión de todos los frameworks de SDOS'
   spec.source       = { :git => "http://git.sdos.es/ios/SDOS.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
@@ -29,6 +29,7 @@ Pod::Spec.new do |spec|
     s1.dependency 'SDOS/UIViewController', '~> 1.0'
     s1.dependency 'SDOS/Util', '~> 1.0'
     s1.dependency 'SDOS/CocoaLumberjack', '~> 1.0'
+    s1.dependency 'SDOS/CustomTypes', '~> 1.0'
   end
 
   spec.subspec 'WS' do |s1|
@@ -36,6 +37,7 @@ Pod::Spec.new do |spec|
     s1.dependency 'SDOS/Util'
     s1.dependency 'SDOS/DAO', '~> 1.0'
     s1.dependency 'SDOS/AFNetworkingJSONModel', '~> 1.0'
+    s1.dependency 'SDOS/CustomTypes', '~> 1.0'
   end
 
   spec.subspec 'DB' do |s1|
@@ -47,7 +49,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'All' do |s1|
     s1.dependency 'SDOS/Default'
-    s1.dependency 'SDOS/Util'
+    s1.dependency 'SDOS/Core'
     s1.dependency 'SDOS/DB'
     s1.dependency 'SDOS/WS'
     s1.dependency 'SDOS/AFJSMR', '~> 1.0'
