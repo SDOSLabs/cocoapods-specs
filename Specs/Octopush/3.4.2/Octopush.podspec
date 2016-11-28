@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "http://git.sdos.es/ios/Octopush.git", :tag => "v#{spec.version}" }
   spec.requires_arc = true
   spec.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Octopush/Octopush/lib"' }
-  spec.framework    = ['Security', 'UIKit', 'AudioToolbox', 'CoreLocation', 'SystemConfiguration', 'Foundation', 'CoreGraphics', 'UserNotifications']
+  spec.framework    = ['Security', 'UIKit', 'AudioToolbox', 'CoreLocation', 'SystemConfiguration', 'Foundation', 'CoreGraphics']
   spec.subspec 'include' do |ss|
       ss.source_files = 'Octopush/include/*.h'
   end
