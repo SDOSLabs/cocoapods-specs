@@ -120,5 +120,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'MaterialControlsCustom'
   spec.dependency 'MagicalRecord'
   spec.dependency 'AFNetworking'
+  
+  spec.deprecated_in_favor_of = 'SDOS'
 
 end
