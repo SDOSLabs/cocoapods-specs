@@ -121,5 +121,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Google/Analytics'
   spec.dependency 'Fabric'
   spec.dependency 'Crashlytics'
+  
+  spec.deprecated_in_favor_of = 'SDOS'
 
 end
