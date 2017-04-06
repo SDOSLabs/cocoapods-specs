@@ -1,4 +1,4 @@
-@version = "0.6.1.fork"
+@version = "v0.6.1.fork"
 Pod::Spec.new do |s|
   s.name             = "KZBootstrap"
   s.version          = @version
