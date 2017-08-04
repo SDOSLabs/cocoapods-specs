@@ -21,9 +21,9 @@ Pod::Spec.new do |spec|
     end
   end
 
-  spec.dependency 'SDOSDAO', '~> 1.0'
-  spec.dependency 'SDOSLocalizableString', '~> 1.0'
-  spec.dependency 'SDOSMagicalRecord', '~> 1.0'
-  spec.dependency 'SDOSAFNetworkingJSONModel', '~> 1.0'
+  spec.dependency 'SDOSDAO'
+  spec.dependency 'SDOSLocalizableString'
+  spec.dependency 'SDOSMagicalRecord'
+  spec.dependency 'SDOSAFNetworkingJSONModel'
 
 end
