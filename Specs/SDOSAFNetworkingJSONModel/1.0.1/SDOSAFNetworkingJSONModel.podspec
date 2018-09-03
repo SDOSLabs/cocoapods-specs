@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSAFNetworkingJSONModel'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSAFNetworkingJSONModel'
   spec.summary      = 'Librería de integración entre AFNetworking y JSONModel con mapeo de fechas, manejo de conexiones, bloques de salida de AFNetworking y response serializer'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSAFNetworkingJSONModel.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSAFNetworkingJSONModel.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
 

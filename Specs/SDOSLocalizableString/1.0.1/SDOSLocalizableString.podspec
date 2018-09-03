@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSLocalizableString'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSLocalizableString'
   spec.summary      = 'Librería que únicamente proporciona el método LS() que sustituye a NSLocalizedString() y permite realizar un cambio de idioma de la app en caliente.'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSLocalizableString.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSLocalizableString.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 

@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSUIViewController'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSUIViewController'
   spec.summary      = 'Librería que extiende la clase UIViewController con funcionalidad relacionada con las fechas de creación, aparición y desaparición de los UIViewControllers. También define un protocolo para facilitar la inicialización de la vista del UIViewController'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSUIViewController.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSUIViewController.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
 

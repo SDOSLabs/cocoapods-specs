@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/krzysztofzablocki/KZBootstrap"
   s.license          = 'MIT'
   s.author           = { "Krzysztof Zablocki" => "krzysztof.zablocki@me.com" }
-  s.source           = { :git => "http://git.sdos.es/ios/KZBootstrapFork.git", :tag => "v#{s.version}" }
+  s.source           = { :git => "https://svrgitpub.sdos.es/iOS/KZBootstrapFork.git", :tag => "v#{s.version}" }
   s.social_media_url = 'https://twitter.com/merowing_'
 
   s.ios.deployment_target = '7.0'

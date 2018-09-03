@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSKZBootstrap'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSKZBootstrap'
   spec.summary      = 'Librería que carga la configuración de KZBootstrap'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSKZBootstrap.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSKZBootstrap.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 

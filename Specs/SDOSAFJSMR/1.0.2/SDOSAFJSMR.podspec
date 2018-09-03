@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSAFJSMR'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSAFJSMR'
   spec.summary      = 'Librería de integración entre AFNetworking, JSONModel y MagicalRecord'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSAFJSMR.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSAFJSMR.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 

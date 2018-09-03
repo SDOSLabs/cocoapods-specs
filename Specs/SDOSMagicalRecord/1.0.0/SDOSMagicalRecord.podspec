@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSMagicalRecord'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSMagicalRecord'
   spec.summary      = 'Librería de integración con MagicalRecord'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSMagicalRecord.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSMagicalRecord.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 

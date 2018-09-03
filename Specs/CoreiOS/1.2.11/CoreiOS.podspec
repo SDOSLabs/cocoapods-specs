@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/CoreiOS'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/CoreiOS'
   spec.summary      = 'Librería de conexión de los frameworks de terceros. En está librería se añaden funcionalidades para facilitar el flujo de trabajo'
-  spec.source       = { :git => "http://git.sdos.es/ios/CoreiOS.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/CoreiOS.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit', 'Crashlytics', 'Fabric']
   spec.requires_arc = true
   spec.preserve_paths = "CoreiOS/Scripts/*"

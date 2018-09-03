@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        Project bootstrap that provides automatic icon versioning, todo -> warning conversion, warnings while files become too long, build numbering, environment switching/validation and much more.
                        DESC
-  s.homepage         = "http://git.sdos.es/ios/KZBootstrap"
+  s.homepage         = "https://svrgitpub.sdos.es/iOS/KZBootstrap"
   s.license          = 'MIT'
   s.author           = { "Krzysztof Zablocki" => "krzysztof.zablocki@me.com" }
-  s.source           = { :git => "http://git.sdos.es/ios/KZBootstrap.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://svrgitpub.sdos.es/iOS/KZBootstrap.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/merowing_'
 
   s.platform     = :ios, '7.0'

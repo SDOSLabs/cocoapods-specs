@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/extensions'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/extensions'
   spec.summary      = 'Librería que añade funcionalidades a los tipos nativos'
-  spec.source       = { :git => "http://git.sdos.es/ios/extensions.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/extensions.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit', 'MapKit', 'Accelerate', 'QuartzCore', 'MessageUI', 'MobileCoreServices', 'AudioToolbox']
   spec.libraries    = 'z'
   spec.requires_arc = true

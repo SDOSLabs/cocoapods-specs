@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSCocoaLumberjack'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSCocoaLumberjack'
   spec.summary      = 'Librería que registra la configuración por defecto de CocoaLumberjack. Esta configuración se ejecuta automáticamente sin necesidad de llamar a ningún método'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSCocoaLumberjack.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSCocoaLumberjack.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 

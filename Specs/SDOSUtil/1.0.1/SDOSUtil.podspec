@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOSUtil'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSUtil'
   spec.summary      = 'Librería que se encarga de activar la monitorización de GBVersionTracking de forma automática sin necesidad de llamar a ningún método. También permite añadir una sección en Ajustes que muestra la versión de la app.'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOSUtil.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSUtil.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation']
   spec.requires_arc = true
 

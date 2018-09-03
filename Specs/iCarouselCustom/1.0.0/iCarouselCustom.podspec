@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.author       = { "Nick Lockwood" => "support@charcoaldesign.co.uk" }
   spec.version      = @version
   spec.license      = { :type => 'MIT' }
-  spec.homepage     = 'http://git.sdos.es/ios/iCarouselCustom'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/iCarouselCustom'
   spec.summary      = 'A class designed to simplify the implementation of various types of carousel.'
-  spec.source       = { :git => "http://git.sdos.es/ios/iCarouselCustom.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/iCarouselCustom.git", :tag => "v#{spec.version}" }
   spec.framework    = ['QuartzCore']
   spec.source_files = 'iCarouselCustom/*.{h,m}'
 end

@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/Octopush'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/Octopush'
   spec.summary      = 'Librería de Octopush para el envío de notificaciones push'
-  spec.source       = { :git => "http://git.sdos.es/ios/Octopush.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/Octopush.git", :tag => "v#{spec.version}" }
   spec.requires_arc = true
   spec.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Octopush/Octopush/lib"' }
   spec.framework    = ['Security', 'UIKit', 'AudioToolbox', 'CoreLocation', 'SystemConfiguration', 'Foundation', 'CoreGraphics']

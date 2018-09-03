@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SDOS'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOS'
   spec.summary      = 'Librería de conexión de todos los frameworks de SDOS'
-  spec.source       = { :git => "http://git.sdos.es/ios/SDOS.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOS.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
   spec.default_subspecs = ['Default']

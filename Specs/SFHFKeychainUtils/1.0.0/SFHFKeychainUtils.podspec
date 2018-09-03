@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'http://git.sdos.es/ios/SFHFKeychainUtils'
+  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SFHFKeychainUtils'
   spec.summary      = 'Librería para acceder al llavero del dispositivo'
-  spec.source       = { :git => "http://git.sdos.es/ios/SFHFKeychainUtils.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SFHFKeychainUtils.git", :tag => "v#{spec.version}" }
   spec.framework    = ['Security']
   spec.requires_arc = true
   spec.source_files = 'SFHFKeychainUtils/*.{h,m}'
