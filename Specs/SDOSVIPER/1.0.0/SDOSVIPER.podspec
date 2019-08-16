@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
   spec.swift_version = '5.0'
+  spec.deprecated = true
 
   spec.subspec 'VIPER' do |s2|
     s2.preserve_paths = 'src/Classes/*'
