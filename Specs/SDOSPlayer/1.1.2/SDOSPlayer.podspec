@@ -5,9 +5,9 @@ Pod::Spec.new do |spec|
   spec.authors      = 'SDOS'
   spec.version      = @version
   spec.license      = { :type => 'SDOS' }
-  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSPlayer'
+  spec.homepage     = 'https://github.com/SDOSLabs/SDOSPlayer'
   spec.summary      = 'Reproductor de audio'
-  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSPlayer.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/SDOSLabs/SDOSPlayer.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
   spec.framework    = ['AdSupport', 'Foundation', 'UIKit']
   spec.subspec 'SDOSPlayer' do |s1|
